@@ -1,10 +1,2 @@
-a = "leetcode"
-r = {}
-for m in a:
-    r[m] = r.get(m, 0)+1
-
-for i in range(len(a)):
-    if r[a[i]] == 1:
-        print(i)
-else:
-    print(0)
+Given an integer array nums, return true if any value appears at least twice in the array,
+# and return false if every element is distinct.
